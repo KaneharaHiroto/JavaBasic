@@ -35,6 +35,8 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		System.out.println(num-money);
+
 
 	}
 }
