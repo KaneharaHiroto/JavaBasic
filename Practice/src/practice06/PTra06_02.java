@@ -13,25 +13,17 @@ public class PTra06_02 {
 		//-----for start
 		for(int i=0;i<20; i++) {
 
-			if(i>20);
+			if(i<20) {
+				if(i%2==0){
 
+					// ★ 今何回目の処理なのかを出力してください
+					System.out.println(i);
 
-
-
-
-			// ★ 今何回目の処理なのかを出力してください
-		System.out.println(i);
-
-			// ★ 奇数回のときには、「奇数」を出力してください
-
-
-		if(i%2<1){
-
-		System.out.print("奇数");
-
-		}
-
-
+					// ★ 奇数回のときには、「奇数」を出力してください
+				}else{
+					System.out.println("奇数");	
+				}
+			}
 		}
 		//-----for end
 	}
