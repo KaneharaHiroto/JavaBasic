@@ -36,6 +36,8 @@ public class PTra08_05 {
 			System.out.println(quadrangle(width,height));
 		}else if(choice==2) {
 			System.out.println(triangle(width,height));
+		}else {
+			 
 
 		}
 	}
