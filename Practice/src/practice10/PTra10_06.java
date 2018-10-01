@@ -19,7 +19,7 @@ public class PTra10_06 {
 		 * 各carインスタンスのrunメソッドを実行して、それぞれ「目的地にまでn時間かかりました。残りのガソリンは、xリットルです」を出力してください。
 		 */
 		Car[] CAR=new Car[3];
-		
+
 		CAR[0]=new Car();
 		CAR[0].serialNo=5000;
 		CAR[0].color="GREEN";

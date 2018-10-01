@@ -1,5 +1,5 @@
 package practice09;
-import practice09.util.Util;;
+import practice09.util.Util;
 /*
  * PTra09_02.java
  *   作成	LIKEIT	2017
