@@ -43,15 +43,14 @@ public class PTra10_04 {
 			users[i].userNm = str[1];
 			users[i].mail = str[2];
 			users[i].password =str[3];
+		}
 
-
+		for(int i=0;i<users.length;i++) {
 			System.out.println(users[i].userId);
 			System.out.println(users[i].userNm);
 			System.out.println(users[i].mail);
 			System.out.println(users[i].password);
-
-		}
-
+	}
 		//----------- ループ end
 
 		// ★ usersに格納されている全てのインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
