@@ -40,19 +40,26 @@ public class PTra17_03 {
 				System.out.println("問題：" + (i + 1));
 				System.out.println(question[i]);
 
-				System.out.println("回答を数字で入力してください");
-				String input = ThrowExceptionUtil.inputValue();
+				while(true) {
+					System.out.println("回答を数字で入力してください");
 
-				int num = Integer.parseInt(input);
+					String input = ThrowExceptionUtil.inputValue();
 
-				if (answer[i] == num) {
-					score++;
+					try {
+						int num = Integer.parseInt(input);
+
+						if (answer[i] == num) {
+							score++;
+						}
+						break;
+					} catch (NumberFormatException e) {
+						System.out.println("数字以外が入力されました");
+
+					}
 				}
 			}
 		} catch(IOException e) {
 			System.out.println("例外が発生しました");
-		} catch(NumberFormatException e) {
-			System.out.println("数字以外が入力されました");
 		}
 
 		System.out.println("全ての問題が終わりました。");
